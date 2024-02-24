@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+body {
+  font-family: "popins", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  font-style: oblique;
+  position: absolute;
+  top: 2rem;
+  left: 40px;
+}
+nav ul {
+  display: flex;
+  position: absolute;
+  right: 4rem;
+  top: 2rem;
+  gap: 3rem;
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  /* text-decoration-color: white; */
+  color: black;
+}
+nav ul a:hover {
+  color: rgb(181,181,181);
+  transform: scaleX(1.01);
+  text-underline-offset: 1rem;
+}
+li {
+  text-decoration: none;
+}
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+#hambergor-nav{
+    display: none;
+}
+.hambergor-menu{
+    position: relative;
+    display:inline-block;
+
+}
+.hambergor-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 100vh;
+
+}
+.hambergor-icon span{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+.profile img{
+    border-radius:50%;
+    border: 2px solid yellow;
+    box-shadow: 2px solid yellowgreen;
+}
