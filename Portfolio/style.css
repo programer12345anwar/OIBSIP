@@ -5,7 +5,7 @@
 }
 body {
   font-family: "popins", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 html {
@@ -22,7 +22,7 @@ nav ul {
   position: absolute;
   right: 4rem;
   top: 2rem;
-  gap: 3rem;
+  gap: 2.5rem;
   list-style: none;
 }
 nav li a {

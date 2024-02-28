@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31,35,41);
+}
+header{
+    background-color: rgb(15,23,42);
+    height:60px;
+    width: 100%;
+}
+footer{
+    background-color: rgb(21,28,26);
+    height: 40px;
+    width: 100%;
+    margin-top: auto;
+}
+main .main-div1{
+    color: white;
+    height: 500px;
+    width: 400px;
+    padding-left: 10px;
+    margin:200px ,400px,0,auto;
+
+}
