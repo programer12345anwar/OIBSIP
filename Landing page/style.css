@@ -1,31 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(31,35,41);
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 35, 41);
 }
-header{
+/* header{
     background-color: rgb(15,23,42);
     height:60px;
     width: 100%;
-}
-footer{
-    background-color: rgb(21,28,26);
-    height: 40px;
-    width: 100%;
-    margin-top: auto;
-}
-main .main-div1{
-    color: white;
-    height: 500px;
-    width: 400px;
-    padding-left: 10px;
-    margin:200px ,400px,0,auto;
+} */
 
+main .main-div1 {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  color: white;
+  height: 400px;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
 }
+main .logo {
+  margin: 35px 122px;
+}
+main .main-div1 h1 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 700;
+  color: white;
+}
+p {
+  color: darkgrey;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 20px 0;
+}
+.pre-order {
+  background-color: rgb(12, 133, 246);
+  padding: 10px 30px;
+  color: white;
+}
+.get-in-touch {
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(21, 24, 29);
+  margin-left: 10px;
+}
+.feature-section{
+    margin-top: 450px;
+    
+}
+.feature-section .feature1,.feature2,.feature3,.feature4,.feature5,.feature6{
+    width: 500px;
+    
+}
+.social-link {
+  position: absolute;
+  right: 10px;
+  /* margin-left: 20px; ,not working why */
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* footer {
+  background-color: rgb(21, 28, 26);
+  height: 40px;
+  width: 100%;
+  margin-top: auto;
+} */
