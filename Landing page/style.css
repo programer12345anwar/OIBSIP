@@ -45,35 +45,113 @@ p {
   background-color: rgb(12, 133, 246);
   padding: 10px 30px;
   color: white;
+  cursor: pointer;
 }
 .get-in-touch {
   padding: 10px 30px;
   color: white;
   background-color: rgb(21, 24, 29);
   margin-left: 10px;
+  cursor: pointer;
 }
-.feature-section{
-    margin-top: 450px;
-    
+.feature-section {
+  margin: 430px 25px 20px 25px;
+  text-align: -webkit-center;
+  align-items: center;
+  padding: 40px;
+  /* line-height: 30px; */
+  flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+  line-height: 30px;
 }
-.feature-section .feature1,.feature2,.feature3,.feature4,.feature5,.feature6{
-    width: 500px;
-    
+.feature-section .feature1,
+.feature2,
+.feature3,
+.feature4,
+.feature5,
+.feature6 {
+  width: 400px;
+  margin-left: 50px;
+}
+/*UNLIMITED ACCESS SECTION*/
+.price-section {
+  margin: 20px;
+  box-sizing: border-box;
+  border: 2px solid red;
+}
+.inner-price-section {
+  min-width: 600px;
+  min-height: 700px;
+  margin: 2rem 12rem;
+}
+.price-section .access-div {
+  width: fit-content;
+}
+.price-section h2 {
+  color: white;
+  text-align: justify;
+  line-height: 25px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 15px;
 }
 .social-link {
   position: absolute;
-  right: 10px;
-  /* margin-left: 20px; ,not working why */
+  right: 2.5rem;
+  bottom: -119rem;
+  margin-bottom: 201px;
 }
-h2{
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
 }
-
-/* footer {
+/*NOT CONVINCED SECTION*/
+.convinced-section {
+  display: flex;
+  margin: 3rem 14rem;
+  height: 115px;
+  width: 1071px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(21, 28, 26);
+}
+.convinced-section h2 {
+  padding: 20px;
+}
+.convinced-section button {
+  /*how to inherit properties that have been previously defined*/
+  background-color: rgb(12, 133, 246);
+  margin-top: 15px;
+  padding: 10px 30px;
+  color: white;
+  margin-left: 430px;
+  cursor: pointer;
+}
+/*FOOTER SECTION*/
+footer {
+  display: flex;
   background-color: rgb(21, 28, 26);
   height: 40px;
   width: 100%;
-  margin-top: auto;
-} */
+  margin-top: 10px;
+  align-items: center;
+}
+.contact-section .contact-div ul {
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+.contact-div a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+footer .contact-section .contact-div {
+  margin-left: 62rem;
+}
+footer p {
+  margin: 10px;
+}
