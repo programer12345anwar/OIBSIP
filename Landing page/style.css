@@ -9,6 +9,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(31, 35, 41);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+/*universal h2 modification*/
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
 }
 /* header{
     background-color: rgb(15,23,42);
@@ -41,7 +48,8 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 20px 0;
 }
-.pre-order ,.order-button{
+.pre-order,
+.order-button {
   background-color: rgb(12, 133, 246);
   padding: 10px 30px;
   color: white;
@@ -54,6 +62,14 @@ p {
   margin-left: 10px;
   cursor: pointer;
 }
+.background-decoration img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 800px;
+  height: 650px;
+}
+/*FEATURE SECTION STYLING*/
 .feature-section {
   margin: 430px 25px 20px 25px;
   text-align: -webkit-center;
@@ -64,6 +80,7 @@ p {
   display: flex;
   box-sizing: border-box;
   line-height: 30px;
+  padding-top: 200px;
 }
 .feature-section .feature1,
 .feature2,
@@ -78,17 +95,14 @@ p {
 .price-section {
   margin: 20px;
   box-sizing: border-box;
-  border: 2px solid red;
 }
- .inner-price-section {
-  
+.inner-price-section {
   /* min-width: 600px;
   min-height: 700px; */
   margin: 2rem 500px;
   box-sizing: border-box;
-  margin-left:35rem;
-  padding:20PX;
-
+  margin-left: 33rem;
+  padding: 20px;
 }
 .price-section .access-div {
   text-align: -webkit-center;
@@ -98,7 +112,7 @@ p {
 .price-section h2 {
   color: white;
   text-align: justify;
-  line-height:20px;
+  line-height: 20px;
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -127,37 +141,41 @@ p {
   font-size: 40px;
   font-weight: 600;
 }
-#price-list-heading{
+#price-list-heading {
   color: white;
   font-size: 30px;
   font-weight: 400;
-  margin:5px 10px;
+  margin: 5px 10px;
   padding: 5px 10px;
   text-align: center;
 }
-.price-wrap .ul-list-ele li{
+.price-wrap .ul-list-ele li {
   text-align: center;
   margin: 2px 10px;
-  padding:5px 10px;
+  padding: 5px 10px;
   text-decoration: none;
   list-style: none;
 }
-.price-wrap .order-button{
-    margin-left:77px;
-    width:250px;
+.price-wrap .order-button {
+  margin-left: 77px;
+  width: 250px;
+  margin-bottom: 10px;
 }
 /*SOCIAL LINK SECTION*/
 .social-link {
+  margin: 2rem;
   position: absolute;
-  right: 2.5rem;
-  bottom: -119rem;
-  margin-bottom: 201px;
+  right: 0.5rem;
+  bottom: -110rem;
+  font-size: xx-large;
+
+  size: 200px;
 }
-h2 {
+.social-link a {
   color: white;
-  font-size: 30px;
-  font-weight: 500;
+  margin-left: 5px;
 }
+
 /*NOT CONVINCED SECTION*/
 .convinced-section {
   display: flex;
@@ -169,19 +187,21 @@ h2 {
   background-color: rgb(21, 28, 26);
 }
 .convinced-section h2 {
-  padding: 20px;
+  margin: 14px;
 }
 .convinced-section button {
   /*how to inherit properties that have been previously defined*/
   background-color: rgb(12, 133, 246);
-  margin-top: 15px;
-  padding: 10px 30px;
+  margin-top: 13px;
+  padding: 14px 28px;
   color: white;
-  margin-left: 430px;
+  margin-left: 400px;
   cursor: pointer;
 }
+
 /*FOOTER SECTION*/
 footer {
+  position: fixed;
   display: flex;
   background-color: rgb(21, 28, 26);
   height: 40px;
@@ -190,9 +210,10 @@ footer {
   align-items: center;
 }
 .contact-section .contact-div ul {
+  margin: -12px;
   color: white;
   display: flex;
-  gap: 15px;
+  gap: 13px;
 }
 .contact-div a {
   color: white;
