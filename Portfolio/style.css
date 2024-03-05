@@ -2,36 +2,52 @@
   margin: 0;
   padding: 0;
   background-color: azure;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   font-family: "popins", sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
-html {
-  scroll-behavior: smooth;
+/* THIS IS HEADER SECTION */
+.header{
+  height: 70px;
+  width: 100%;
+  padding: 12px;
+
 }
-.logo {
-  font-style: oblique;
-  position: absolute;
-  top: 2rem;
-  left: 40px;
+#navbar {
+  width: 12px;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 10px;
+  justify-content: center;
 }
+
+.navbar .logo {
+}
+/* main menu list item */
 nav ul {
+  font-size: 18px;
+  font-weight: 500;
   display: flex;
   position: absolute;
   right: 4rem;
   top: 2rem;
-  gap: 2.5rem;
+  gap: 2rem;
   list-style: none;
 }
 nav li a {
   text-decoration: none;
   /* text-decoration-color: white; */
   color: black;
+  /* color: #FFFFFF; */
 }
 nav ul a:hover {
-  color: rgb(181,181,181);
+  color: rgb(181, 181, 181);
   transform: scaleX(1.01);
   text-underline-offset: 1rem;
 }
@@ -43,30 +59,36 @@ nav {
   align-items: center;
   height: 17vh;
 }
-#hambergor-nav{
-    display: none;
-}
-.hambergor-menu{
-    position: relative;
-    display:inline-block;
 
+/* HERO SECTION */
+.hero-section .left-part {
+  /* margin-top: -136px; */
+  height: 100vh;
+  width: 50%;
+  background-color: rgb(240, 197, 36);
 }
-.hambergor-icon{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 20px;
-    width: 100vh;
-
+#hambergor-nav {
+  display: none;
 }
-.hambergor-icon span{
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    transition: all 0.3 ease-in-out;
+.hambergor-menu {
+  position: relative;
+  display: inline-block;
 }
-.profile img{
-    border-radius:50%;
-    border: 2px solid yellow;
-    box-shadow: 2px solid yellowgreen;
+.hambergor-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 100vh;
+}
+.hambergor-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3 ease-in-out;
+}
+.profile img {
+  border-radius: 50%;
+  border: 2px solid yellow;
+  box-shadow: 2px solid yellowgreen;
 }
