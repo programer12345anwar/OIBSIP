@@ -4,20 +4,53 @@
   background-color: azure;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
+/* universal style*/
+html,
+body {
+  height: 100%;
 }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000;
+  margin: 0;
+}
+
+a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.7;
+  margin: 0;
+}
+ 
 body {
   font-family: "popins", sans-serif;
   font-size: 20px;
   font-weight: 400;
 }
 /* THIS IS HEADER SECTION */
-.header{
+.header {
   height: 70px;
   width: 100%;
   padding: 12px;
-
 }
 #navbar {
   width: 12px;
