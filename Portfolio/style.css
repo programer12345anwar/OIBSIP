@@ -133,6 +133,48 @@ nav {
     top: 100px;
   
 }
+/*=========================
+   FEATURE SECTION
+  ========================*/
+  .feature-section{
+    height: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    margin:5px;
+    padding: 5px;
+    background-color: white;
+
+  }
+  .feature-section .feature{
+    padding: 20px;
+    margin:4rem 16rem;
+    display: flex;
+    gap: 20px;
+    width:fit-content;
+  }
+  .feature1,.feature2,.feature3{
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content:center;
+    box-shadow:10px turquoise;
+    background-color: aquamarine;
+    >h3{
+      text-align: center;
+      font-size: 25px;
+      margin: 5px;
+      padding: 5px;
+
+    }
+    >p{
+      text-align:justify;
+      
+    }
+  }
+/*========================
+      ABOUT SECTION
+  ========================*/
 
 /*=========================
 HAMBERGOR SECTION
