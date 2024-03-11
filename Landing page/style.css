@@ -11,7 +11,10 @@ body {
   background-color: rgb(31, 35, 41);
   font-family: "IBM Plex Sans", sans-serif;
 }
-/*universal h2 modification*/
+
+/*=============================
+   universal h2 modification
+ ==============================*/
 h2 {
   color: white;
   font-size: 30px;
@@ -63,13 +66,14 @@ p {
   width: 800px;
   height: 650px;
 }
-/*FEATURE SECTION STYLING*/
+/*==============================
+   FEATURE SECTION STYLING
+  ==============================*/
 .feature-section {
   margin: 430px 25px 20px 25px;
   text-align: -webkit-center;
   align-items: center;
   padding: 40px;
-  /* line-height: 30px; */
   flex-wrap: wrap;
   display: flex;
   box-sizing: border-box;
@@ -85,14 +89,15 @@ p {
   width: 400px;
   margin-left: 50px;
 }
-/* PRICE SECTION AND UNLIMITED ACCESS SECTION*/
+/*============================
+       PRICE SECTION 
+  ============================*/
 .price-section {
   margin: 20px;
   box-sizing: border-box;
 }
 .inner-price-section {
-  /* min-width: 600px;
-  min-height: 700px; */
+   
   margin: 2rem 500px;
   box-sizing: border-box;
   margin-left: 33rem;
@@ -155,7 +160,9 @@ p {
   width: 250px;
   margin-bottom: 10px;
 }
-/*SOCIAL LINK SECTION*/
+/*======================
+   SOCIAL LINK SECTION
+  ======================*/
 .social-link {
   margin: 2rem;
   position: absolute;
@@ -170,7 +177,10 @@ p {
   margin-left: 5px;
 }
 
-/*NOT CONVINCED SECTION*/
+/*==========================
+    NOT CONVINCED SECTION
+  ==========================*/
+
 .convinced-section {
   display: flex;
   margin: 3rem 14rem;
@@ -184,7 +194,7 @@ p {
   margin: 14px;
 }
 .convinced-section button {
-  /*how to inherit properties that have been previously defined*/
+   
   background-color: rgb(12, 133, 246);
   margin-top: 13px;
   padding: 14px 28px;
@@ -193,7 +203,9 @@ p {
   cursor: pointer;
 }
 
-/*FOOTER SECTION*/
+/*=======================
+     FOOTER SECTION
+  =======================*/
 footer {
   display: flex;
   background-color: rgb(21, 28, 26);

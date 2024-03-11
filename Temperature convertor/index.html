@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature-convertor</title>
-    <!--CSS file link-->
+    <!--==============================
+             CSS file link
+     ===============================-->
     <link rel="stylesheet" href="style.css" />`
 
-    <!--Font awesome link-->
+    <!--===============================
+             Font awesome link
+     ================================-->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -34,7 +39,10 @@
           <input type="number" id="Degree" name="Degree" />
         </div>
 
-        <!--selection of scale-->
+        <!--===========================
+                selection of scale
+         =============================-->
+
         <div class="select-scale">
           <label for="temp">Select temperatutre scale:</label>
 
@@ -43,7 +51,11 @@
             <option value="Kelvin">Kelvin</option>
           </select>
         </div>
-        <!--for storing result-->
+
+        <!--=========================
+              for storing result
+          =========================-->
+
         <div class="result">
           <button onclick="convertTemperature()" >Convert</button>
           <div class="result" id="result">
@@ -52,7 +64,11 @@
         </div>
       </div>
     </div>
-    <!--linking javaScript file-->
+    
+    <!--=============================
+        linking javaScript file
+     ==============================-->
+
     <script src="./App.js"></script>
   </body>
 </html>

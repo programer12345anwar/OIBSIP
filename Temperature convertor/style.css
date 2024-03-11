@@ -10,11 +10,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #c0c0c0; */
   background-color: #c0c0c0;
   line-height: 2rem;
   border: 2px solid yellow;
-  /* background-color: blueviolet; */
 }
 .container {
   border: 2px solid yellow;
@@ -30,7 +28,6 @@ body {
   text-align: center;
   color: red;
   padding-bottom: 10px;
-  /* border: 2px solid yellow; */
 }
 .time {
   display: flex;

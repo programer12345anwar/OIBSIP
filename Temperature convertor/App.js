@@ -1,11 +1,12 @@
 
 function convertTemperature() {
 
-   
     var scale = document.getElementById('Degree').value;
-    // Get the input value
     var temperature = parseFloat(scale);
-    // Convert the temperature based on the selected scale
+
+    /*==================================================
+    Converting the temperature based on the selected scale
+    ======================================================*/
 
     const option= document.querySelector('#temp');
     console.log(option.value);
@@ -20,8 +21,5 @@ function convertTemperature() {
 }
  
 
-// const button =document.querySelector('button');
-// button.addEventListener('click',()=>{
-//     console.log("hello");
-// })
+ 
  
