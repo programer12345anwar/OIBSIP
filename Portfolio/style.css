@@ -306,8 +306,6 @@ p {
   ============================*/
 
 .exp-award-sec {
-  top: 86rem;
-  /* position: absolute; */
   height: 294px;
   width: 100%;
   background-image: url(./assets/fan-fact-bg.jpg);
@@ -345,6 +343,7 @@ p {
   ========================*/
 
   .service-sec{
+    height: 480px;
     margin-bottom: 30px;
   }
 
@@ -381,9 +380,16 @@ p {
   width: 400px;
   height:300px;
   background-color: whitesmoke;
-  border: 2px solid yellow;
+  border: 3px solid yellow;
   border-bottom: 5px solid black;
  }
+
+ .service-row p{
+  text-align: center;
+  padding: 5px;
+  margin-top: 155px;
+}
+ 
  .row1:hover{
   background-color: #000;
   cursor: pointer;
@@ -408,10 +414,52 @@ p {
   color: white;
  }
 
-/*=========================
-HAMBERGOR SECTION
-===========================
-*/
+
+ /*==========================
+    WHY CHOOSE ME SECTION
+  ===========================*/
+
+  .why-choose-me{
+    margin: 10px;
+    height: 500px;
+    width: 100%;
+  }
+  .sub-choose-me .about-whychoose{
+    margin-top: 50px;
+  }
+  .head{
+    /* width: 418px;
+     */
+     margin: auto;
+     width: 100%;
+     
+     padding: 10px;
+     >p{
+      text-align: center;
+     }
+  }
+  .about-why-choose{
+    font-size: 15px;
+    padding: 12px;
+    margin: 40px 0px 0px 400px;
+    display: flex;
+    gap: 2px;
+    height: max-content;
+    width: 50%;
+  }
+
+/*===========================
+       RECENT WORK SECTION
+  ===========================*/
+
+  .recent-work{
+    height: 500px;
+    width: 100%;
+    padding: 12px;
+  }
+/*===========================
+      HAMBERGOR SECTION
+  ============================*/
 #hambergor-nav {
   display: none;
 }
