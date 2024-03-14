@@ -272,9 +272,8 @@ nav {
   position: relative;
   top: 50px;
   left: 40px;
-  
 }
-.about-section .profile-container img{
+.about-section .profile-container img {
   width: 450px;
   margin-left: 130px;
 }
@@ -342,10 +341,10 @@ p {
       SERVICE SECTION
   ========================*/
 
-  .service-sec{
-    height: 480px;
-    margin-bottom: 30px;
-  }
+.service-sec {
+  height: 480px;
+  margin-bottom: 30px;
+}
 
 .sub-service-sec {
   height: 300px;
@@ -360,11 +359,11 @@ p {
   align-items: center;
   /* border: 2px solid red; */
 }
-.about-service P{
+.about-service P {
   justify-content: center;
   text-align: center;
 }
- .service-row{
+.service-row {
   display: flex;
   gap: 20px;
   width: 100%;
@@ -372,91 +371,105 @@ p {
   margin-top: 30px;
   align-items: center;
   justify-content: center;
- }
- .row1,.row2,.row3{
+}
+.row1,
+.row2,
+.row3 {
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 400px;
-  height:300px;
+  height: 300px;
   background-color: whitesmoke;
   border: 3px solid yellow;
   border-bottom: 5px solid black;
- }
+}
 
- .service-row p{
+.service-row p {
   text-align: center;
   padding: 5px;
   margin-top: 155px;
 }
- 
- .row1:hover{
+
+.row1:hover {
   background-color: #000;
   cursor: pointer;
- }
- .row1 p:hover{
+}
+.row1 p:hover {
   color: white;
- }
+}
 
- .row2:hover{
+.row2:hover {
   background-color: #000;
   cursor: pointer;
- }
- .row2 p:hover{
+}
+.row2 p:hover {
   color: white;
- }
+}
 
- .row3:hover{
+.row3:hover {
   background-color: #000;
   cursor: pointer;
- }
- .row3 p:hover{
+}
+.row3 p:hover {
   color: white;
- }
+}
 
-
- /*==========================
+/*==========================
     WHY CHOOSE ME SECTION
   ===========================*/
 
-  .why-choose-me{
-    margin: 10px;
-    height: 500px;
-    width: 100%;
-  }
-  .sub-choose-me .about-whychoose{
-    margin-top: 50px;
-  }
-  .head{
-    /* width: 418px;
+.why-choose-me {
+  margin: 10px;
+  height: 500px;
+  width: 100%;
+}
+.sub-choose-me .about-whychoose {
+  margin-top: 50px;
+}
+.head {
+  /* width: 418px;
      */
-     margin: auto;
-     width: 100%;
-     
-     padding: 10px;
-     >p{
-      text-align: center;
-     }
+  margin: auto;
+  width: 100%;
+
+  padding: 10px;
+  > p {
+    text-align: center;
   }
-  .about-why-choose{
-    font-size: 15px;
-    padding: 12px;
-    margin: 40px 0px 0px 400px;
-    display: flex;
-    gap: 2px;
-    height: max-content;
-    width: 50%;
-  }
+}
+.about-why-choose {
+  font-size: 15px;
+  padding: 12px;
+  margin: 40px 0px 0px 400px;
+  display: flex;
+  gap: 2px;
+  height: max-content;
+  width: 50%;
+}
 
 /*===========================
        RECENT WORK SECTION
   ===========================*/
 
-  .recent-work{
-    height: 500px;
-    width: 100%;
-    padding: 12px;
-  }
+.recent-work {
+  margin-top: 30px;
+  height: 300px;
+  width: 100%;
+  padding: 12px;
+}
+.recent-data {
+  height: 250px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.recent-data p {
+  text-align: justify;
+  font-style: italic;
+  font-weight: 300;
+}
 /*===========================
       HAMBERGOR SECTION
   ============================*/
@@ -486,24 +499,18 @@ p {
   ================================*/
 
 .footer-sec {
-  background-color: #000;
+  background-color: black;
+  opacity: 0.6;
+  top: 40.5rem;
   position: fixed;
   width: 100%;
-  height: 200px;
-  align-items: center;
-  text-align: center;
+  height: 50px;
 }
 
-/* .footer-sec footer {
-position: fixed;
-background-color: rgb(21, 28, 26);
-height: 40px;
-width: 100%;
-margin-top: 10px;
-align-items: center;
-width: 100%;
-height: 100px;
->p{
-      color: white;
-  }
-} */
+.footer-sec .footer-p p {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 8px;
+}
